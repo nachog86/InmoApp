@@ -28,14 +28,6 @@ namespace InmobiliariaBlazorApp.Data
         public ICollection<Video> Videos { get; set; } = new List<Video>();
 
 
-
-
-
-
-
-
-
-        
         // Clave foránea
         public int PropietarioId { get; set; }
         
@@ -48,11 +40,19 @@ namespace InmobiliariaBlazorApp.Data
         public ICollection<UsuarioFavorito> UsuariosFavoritos { get; set; } = new List<UsuarioFavorito>();
         public ICollection<Consulta> Consultas { get; set; } = new List<Consulta>();
 
+       
+    }
+}
+
+
+
+
 
 
 
 
         
-        // Puedes agregar más propiedades según tus necesidades
-    }
-}
+
+
+
+        
